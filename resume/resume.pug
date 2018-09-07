@@ -3,7 +3,7 @@ include resume-mixins.pug
 #main
   #title
     h1 Samuel Dixon
-    .subtitle Technology Support Engineer
+    .subtitle Cloud & Systems Engineer
 
   .main-block
     h2 #[i.fa.fa-suitcase] Experiences
@@ -12,17 +12,11 @@ include resume-mixins.pug
       :markdown-it
         - Work with a team focused on AWS project delivery
         - Perform AWS engineering tasks in a client facing role
-        - Code, test and deploy infrastructure as code and Python scripts for clients
+        - Code, test and deploy infrastructure as code using CloudFormation and Packer
+        - Develop, test and deliver Python scripts for clients
         - Participate in on-site client workshops and knowledge transfers
-        - Create documentation of completed work for hand off to clients
+        - Create professional documentation of completed work for hand off to clients
 
-    +item("Freelance Consulting", "Self Employed", "Pendleton, IN", "Present", "April 2018")
-      :markdown-it
-        - Assist WR Dunkin & Son, FJ Watkins & Co and The Dixon Construction Group in small business IT needs
-        - Assist users with troubleshooting Windows, Word, Excel, Outlook and Quickbooks issues
-        - Maintenance of Windows and Exchange Servers
-        - Setup new Office 365 Email accounts
-        - Occasional need to build or troubleshoot desktop computers
     +item("Associate Consultant", "Virtusa", "Indianapolis, IN", "Jun 2018", "Jan 2016")
       :markdown-it
         - Work with a team focused on managed service delivery as well as consulting/professional services
@@ -31,8 +25,8 @@ include resume-mixins.pug
         - Subject matter expert of multiple client environments
         - Maintain documentation, problem management and monitoring tools to improve service delivery
         - Work on client or monitoring submitted incidents with end-to-end ownership of the problem
+        - Participate in on-call rotation
         - Coordinate with global resources for planning off hours maintenance
-
 
   .main-block
     h2 #[i.fa.fa-folder-open] Selected Projects
@@ -43,11 +37,11 @@ include resume-mixins.pug
 
     +item("AWS Foundational Deployment", "AHEAD, Engineer", null, "2018")
       :markdown-it
-        - Worked on a project assisting with deployment of CloudFormation templates from the AHEAD standard framework for a foundational AWS Build. This involved customizing CloudFormation templates from our base template, creating custom CloudFormation templates to meet specific client needs, deploying the stacks across multiple AWS accounts and validating the configuration works properly.
+        - Worked on a project assisting deploy CloudFormation templates from the AHEAD standard framework for a foundational AWS Build. This involved customizing CloudFormation templates from our base template, creating custom CloudFormation templates to meet specific client needs, deploying the stacks across multiple AWS accounts and validating the deployment was successful.
+
   .main-block
     h2 #[i.fa.fa-suitcase] Volunteer Experiences
     +item("Assistant Boys Cross Country Coach","Pendleton Heights Middle School", "Pendleton,IN","Present","2017")
-
   .main-block.concise
     h2 #[i.fa.fa-graduation-cap] Certifications
 
@@ -68,27 +62,26 @@ include resume-mixins.pug
   #skills.side-block
     h1 Skills
     ul Operating Systems
-      li - Windows 7, 8, 10
       li - Windows Server 2008, 2012, 2016
       li - Red Hat Enterprise Linux/Centos 6,7
-      li - Mac OSX
-      li - Ubuntu Desktop
-    ul Server Technologies
+    ul Web Servers
       li - IIS 7.5, 8, 10
-      li - Active Directory
-      li - Exchange Server
       li - Apache
-    ul Software
-      li - Microsoft Office
-      li - Google Docs
-      li - Quickbooks
-    ul Scripting Languages
+    ul Scripting
       li - PowerShell
       li - Python
       li - Bash
-    ul Cloud Technologies
+    ul Infrastructure As Code
+      li - CloudFormation
+      li - Terraform
+      li - Packer
+    ul Configuration Management
+      li - SaltStack
+      li - Ansible
+    ul Source Control
+      li - Git
+    ul Cloud
       li - Amazon Web Services
-      li - Office 365
     ul Hypervisors
       li - Hyper-V
 
