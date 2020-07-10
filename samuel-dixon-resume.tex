@@ -1,0 +1,81 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{Samuel J. Dixon\\[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{{\bf Address} \\ 417 W North St \\ Lebanon, IN 46052  \\
+        }
+\address{{\bf Contact Information} \\ sdixon@posteo.net \\ https://sjd.im \\
+        (317) 450-8066}
+
+ 
+\begin{resume} 
+ 
+\section{Objective} 
+Motivated and quick learning technologist interested in a position where I can apply my current skillset as well as grow both personally and professionally. 
+
+\section{Education} 
+A.S. in Computer Science \hfill2019 - Present\\
+Ivy Tech Community College, Indianapolis, IN\\
+GPA 3.7 in major, 3.55 overall\\
+Dean's List, Spring 2020
+ 
+
+\section{Experience}
+ {\bf Technician,} Zionsville Community Schools, Zionsville, IN\hfill Oct 2018 - Present
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Provide end user support to all district schools.
+ \item Active Directory, Office 365, and server troubleshooting as needed.
+ \item Provide basic network troubleshooting.
+ \item Manage over 1000 Chromebooks via Google Admin Console.
+ \item Troubleshoot, configure, and deploy printers.
+ \end{itemize}
+
+ 
+ 
+{\bf Cloud Services Engineer,} Ahead, Chicago, IL (Remote)\hfill Jun 2018 - Oct 2018 
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Work with a team focused on AWS project delivery.
+\item Code, test, and deploy infrastructure as code.
+\item Develop and test Python scripts for both clients and internal use.
+\item Participate in on-site client workshops and knowledge transfers.
+\item Create professional documentation of completed work for hand off to clients.
+\end{itemize}
+
+{\bf Associate Consultant,} Virtusa, Indianapolis, IN \hfill Jan 2016 - Jun 2018               
+\begin{itemize} \itemsep -2pt
+\item  Work with a team focused on managed service delivery as well as consulting and professional services.
+\item Directly support a wide variety of technologies with a focus on Microsoft, Linux, and AWS.
+\item Subject matter expert of multiple client environments.
+\item Create and maintain internal documentation.
+\item Work on client or monitor generated incidents with end-to-end ownership of the issue.
+\item Participate in on-call rotation.
+\end{itemize}
+
+\section{Volunteer Activities} 
+               {\bf Assistant Boys Cross Country Coach,} \hfill2017-2019\\
+               Pendleton Heights Middle School, Pendleton, IN
+
+\section{Certifications} 
+AWS Certified Solutions Architect - Associate\hfill 2018 - 2021
+ 
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Skills}
+   \begin{tabular}{l p{3in}}
+    \underline{Languages:} & Python, PowerShell, Bash \\
+
+     \underline{Software:} & Linux, Windows AWS, Ansible, SaltStack, Terraform, Packer,
+                            Git, Apache, Nginx, IIS, CloudFormation 
+ \end{tabular}
+
+\end{resume} 
+\end{document} 
