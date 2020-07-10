@@ -1,4 +1,13 @@
 # resume
-Relaxed Resume. My personal Resume.
 
-Don't have any need for this, but will keep it here to update and to dust off when/if necessary
+Personal resume build using LaTex. 
+
+
+### dependencies
+
+`texlive` package to build
+
+
+### building
+
+Use the `pdflatex samuel-dixon-resume.tex` to build a pdf representation of the resume.
